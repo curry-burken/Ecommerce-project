@@ -11,7 +11,7 @@ function Navbar() {
         <div className='nav-logo'>
             <img src={logo} alt=""/>
             <p>Cloth Shop</p>
-        </div>
+        </div>  
         <ul className="nav-menu">
             <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:"none"}} to="/">Shop</Link>{menu==="shop"?<hr/>:null}</li>
             <li onClick={()=>{setMenu("men")}}><Link style={{textDecoration:"none"}} to="/mens">Mens</Link>{menu==="men"?<hr/>:null}</li>
