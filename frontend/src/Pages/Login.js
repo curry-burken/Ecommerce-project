@@ -1,22 +1,22 @@
 import React from 'react';
-import './CSS/LoginSignup.css';
+import './CSS/Login.css';
 
-function LoginSignup() {
+function Login() {
   return (
-    <div class="loginsignup">
-      <div class="loginsignup-container">
+    <div class="login">
+      <div class="login-container">
         <h1>Sign Up</h1>
-        <div className='loginsignup-fields'>
+        <div className='login-fields'>
           <input type="text" placeholder='Your Name'/>
           <input type="email" placeholder='Email Address'/>
           <input type="password" placeholder='Password'/>
         </div>
         <button>Continue</button>
-        <p className='loginsignup-login'>
+        <p className='login-login'>
           Already have an account? <span>Login here</span>
         </p>
         <div>
-          <div className='loginsignup-agree'>
+          <div className='login-agree'>
             <input type="checkbox" name='' id=''/>
             <p>By continuing, I agree to the terms of use and privacy policy.</p>
           </div>
@@ -27,4 +27,4 @@ function LoginSignup() {
   )
 }
 
-export default LoginSignup
+export default Login
